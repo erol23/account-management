@@ -9,12 +9,13 @@ import UserPage from "../pages/user/UserPage";
 
 const AppRouter = () => {
   const [user, setUser] = useState(false);
+  const [name, setName] = useState("")
 
   console.log(user);
 
   return (
     <BrowserRouter>
-      <Navbar user={user} setUser={setUser} />
+      <Navbar user={user} setUser={setUser} name={name} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
@@ -23,7 +24,7 @@ const AppRouter = () => {
         />
         <Route
           path="/register"
-          element={<Register user={user} setUser={setUser} />}
+          element={<Register user={user} setUser={setUser} setName={setName} />}
         />
         <Route path="/user" element={<PrivateRouter user={user} />}>
           {user &&

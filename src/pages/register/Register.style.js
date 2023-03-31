@@ -11,7 +11,7 @@ export const RegisterContainer = styled.div`
 export const RegisterForm = styled.form`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 `;
 
 export const RegisterInput = styled.input`
@@ -25,10 +25,14 @@ export const RegisterInput = styled.input`
 export const RegisterButton = styled.button`
   height: 3rem;
   font-size: 2rem;
-  width: 20rem;
+  width: 8.5rem;
   border-radius: 5px;
-  background-color: #77F900;
-  :hover{
+  background-color: #fafffe;
+  color: #7edbff;
+  border-color: #7edbff;
+  margin-top: 15px;
+  margin-left: 6px;
+  :hover {
     cursor: pointer;
   }
 `;

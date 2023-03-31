@@ -11,7 +11,7 @@ export const LoginContainer = styled.div`
 export const LoginForm = styled.form`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 `;
 
 export const LoginInput = styled.input`
@@ -25,10 +25,14 @@ export const LoginInput = styled.input`
 export const LoginButton = styled.button`
   height: 3rem;
   font-size: 2rem;
-  width: 20rem;
+  width: 6rem;
   border-radius: 5px;
-  background-color: #77F900;
-  :hover{
+  background-color: #fafffe;
+  color: #7edbff;
+  border-color: #7edbff;
+  margin-top: 15px;
+  margin-left: 6px;
+  :hover {
     cursor: pointer;
   }
 `;

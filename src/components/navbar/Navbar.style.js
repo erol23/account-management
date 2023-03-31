@@ -7,7 +7,7 @@ export const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: #33EDFA;
+  background: #7EDBFF;
   border-radius: 0 0 10px 10px;
   height: 75px;
 `;
