@@ -7,7 +7,7 @@ const Register = ({user, setUser}) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setUser(!user)
-    navigate("/")
+    navigate("/user")
   }
 
   return (
