@@ -14,7 +14,7 @@ const AppRouter = () => {
 
   return (
     <BrowserRouter>
-      <Navbar user={user} />
+      <Navbar user={user} setUser={setUser} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
